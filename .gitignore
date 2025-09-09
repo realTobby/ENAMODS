@@ -10,7 +10,7 @@
 /x86/
 /ARM/
 /ARM64/
-/ENAMODS/packages/
+/packages/
 
 # Compiled bits
 *.dll
@@ -108,3 +108,6 @@ desktop.ini
 /Mods/
 /*_Data/
 /Logs/
+/ENAMODS/ENAMODS/bin
+/ENAMODS/ENAMODS/obj
+/ENAMODS/packages
