@@ -33,7 +33,7 @@ Target framework: **.NET Framework 4.7** (4.7.2/4.8).
 
 Add references **from the game folder** (not the Unity Editor):
 
-**MelonLoader (from `<Game>\MelonLoader\Managed\`):**
+**MelonLoader (from `<Game>\MelonLoader\net35`):**
 - `MelonLoader.dll`
 - `0Harmony.dll` *(HarmonyLib)*
 
