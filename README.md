@@ -8,7 +8,7 @@ Lightweight utility mod with a minimal HUD, and a fast FreeCam.
 
 ## Requirements
 - **MelonLoader 0.7.x** (Open Beta)  
-- Game: **ENA Dream BBQ** (Unity 2021.3, Mono / .NET 3.5)
+- Game: **ENA Dream BBQ** (Unity 2021.3, Mono / .NET 4.7.*)
 
 ## Install
 1. Install MelonLoader to the game.
@@ -27,8 +27,7 @@ Lightweight utility mod with a minimal HUD, and a fast FreeCam.
 
 ## Build (references)
 
-Target framework: **.NET Framework 4.x** (4.7.2/4.8).  
-*(If your ML setup insists on net35 you can also build for .NET 3.5, but Unity 2021 generally uses 4.x.)*
+Target framework: **.NET Framework 4.7** (4.7.2/4.8).  
 
 Add references **from the game folder** (not the Unity Editor):
 
@@ -48,5 +47,3 @@ Add references **from the game folder** (not the Unity Editor):
 
 **Optional (instead of the local 0Harmony.dll):**
 - NuGet package **HarmonyX** / **HarmonyLib** (keep only one Harmony reference).
-
-> Tip: set **Copy Local = False** on all Unity/MelonLoader refs so they aren’t copied into your build output.
