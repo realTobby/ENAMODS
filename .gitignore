@@ -1,0 +1,110 @@
+# =========================
+# Build artifacts
+# =========================
+/bin/
+/obj/
+/out/
+/artifacts/
+/Build/
+/x64/
+/x86/
+/ARM/
+/ARM64/
+/ENAMODS/packages/
+
+# Compiled bits
+*.dll
+*.pdb
+*.mdb
+*.exe
+*.app
+*.cache
+*.ilk
+*.iobj
+*.ipdb
+*.log
+*.tlog
+
+# VS incremental files
+*.obj
+*.pch
+*.idb
+*.pchi
+
+# =========================
+# IDE / tooling
+# =========================
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# MonoDevelop / Xamarin
+*.userprefs
+*.pidb
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# NCrunch
+*.ncrunch*
+_NCrunch_*
+.*crunch*.local.xml
+
+# =========================
+# NuGet
+# =========================
+/packages/
+/*.nupkg
+*.snupkg
+project.lock.json
+# keep packages.config if you use it
+!packages.config
+
+# =========================
+# Test / coverage
+# =========================
+TestResults/
+*.coverage
+*.coveragexml
+coverage*/
+*.trx
+
+# =========================
+# Local caches / temps
+# =========================
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+*.swo
+~$*
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Safety: if you develop inside the game folder,
+# don’t accidentally commit game files.
+# (These lines are harmless if they don’t exist.)
+# =========================
+/MelonLoader/
+/Mods/
+/*_Data/
+/Logs/
